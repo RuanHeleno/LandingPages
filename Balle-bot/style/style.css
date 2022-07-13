@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 24px;
+}
+
+header img {
+    height: 72px;
+}
+
+header nav {
+    display: flex;
+    gap: 32px;
+}
+
+header a {
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+main {
+    margin-bottom: 48px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.content1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content1 div {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.content1 div h1 {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: #FFF2E7;
+}
+
+.content1 div h2 {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ECD6C4;
+}
+
+.content1 div button {
+    background-color: #ECD6C4;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #2F2325;
+}
+
+.content1 div button:hover {
+    background-color: rgba(236, 214, 196, 0.83);
+    cursor: pointer;
+}
+
+.content1 img {
+    height: 430px;
+}
+
+.content2 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    margin-top: 48px;
+}
+
+.content2 h3 {
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFF2E7;
+    margin-bottom: 16px;
+}
+
+.content2 p {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #ECD6C4;
+}
+
+footer {
+    border-top: 0.4px solid #FFF2E7;
+    padding: 32px;
+}
+
+footer img {
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}
